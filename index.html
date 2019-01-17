@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Beats by Dre (中国)</title>
+		<link rel="icon" href="https://www.beatsbydre.com/etc/designs/apps/beats/resources/img/global/logo.png">
+		<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+				/* font-size: 0; */
+			}
+
+			.header {
+				width: 100%;
+				margin: 0 auto;
+				background: rgb(27, 27, 27);
+				/* border: 1px solid; */
+				text-align: center;
+				color: white;
+				height: 60px;
+				line-height: 60px;
+			}
+
+			.header>img {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			ul,
+			li {
+				display: inline-block;
+
+			}
+
+			.header>ul>li {
+				width: 110px;
+			}
+
+			.header>ul>li>a {
+				color: white;
+				text-decoration: none;
+			}
+
+			.header>ul>li>a:hover {
+				border-bottom: 1px solid rgb(235, 0, 17);
+			}
+
+			.banner {
+				position: relative;
+				z-index: 2;
+				top: -5px;
+				width: 100%;
+				margin: 0 auto;
+				overflow: hidden;
+				height: 80vh;
+				border-bottom-left-radius: 1000px 25px;
+				border-bottom-right-radius: 1000px 25px;
+				background: url(img/banner1.jpg);
+				background-size: 100%;
+				color: white;
+			}
+
+			.banner>h1 {
+				display: inline-block;
+				position: relative;
+				width: 250px;
+				top: 150px;
+				left: 370px;
+				font-size: 35px;
+			}
+
+			.banner>p {
+				width: 250px;
+				position: relative;
+				font-size: 12px;
+				left: 370px;
+				top: 160px;
+			}
+
+			.content {
+				width: 100%;
+				position: relative;
+				top: -12px;
+				margin: 0 auto;
+				overflow: hidden;
+				background: rgb(245, 242, 242);
+				text-align: center;
+				z-index: 1;
+			}
+
+			h2 {
+				padding-top: 40px;
+				margin-bottom: 40px;
+			}
+
+			h2:before {
+				content: "";
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				background: white;
+				margin-right: 10px;
+				transform: rotate(50deg);
+			}
+
+			h2:after {
+				content: "";
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				background: white;
+				margin-left: 10px;
+				transform: rotate(50deg);
+			}
+
+			.products {
+				width: 1000px;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-around;
+			}
+
+			.products>div>div {
+				width: 222px;
+				height: 222px;
+				margin-bottom: 20px;
+				background-size: 100%;
+			}
+
+			.products>div>div:hover>div {
+				display: flex;
+			}
+
+			.pro_pic1 {
+				background: url(img/index-product1.jpg);
+			}
+
+			.pro_pic2 {
+				background: url(img/index-product2.jpg);
+			}
+
+			.pro_pic3 {
+				background: url(img/index-product3.jpg);
+			}
+
+			.buy_btn {
+				display: none;
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.5);
+				justify-content: center;
+				align-items: center;
+			}
+
+			.buy_btn>span {
+				display: inline-block;
+				width: 100px;
+				height: 50px;
+				border: 1px solid white;
+				color: white;
+				font-size: 20px;
+				line-height: 50px;
+				border-radius: 500px;
+				cursor: pointer;
+			}
+
+			.content>div:nth-of-type(2) {
+				background: url(img/paint1.jpg) top right no-repeat;
+				background-size: 83%;
+			}
+
+			.content>div:nth-of-type(3) {
+				background: url(img/paint2.jpg) top left no-repeat;
+				background-size: 83%;
+			}
+
+			.content>div:nth-of-type(4) {
+				background: url(img/paint3.jpg) top right no-repeat;
+				background-size: 83%;
+			}
+
+			.content>div:nth-of-type(5) {
+				background: url(img/paint4.jpg) top left no-repeat;
+				background-size: 98%;
+			}
+
+			.item1 {
+				width: 1000px;
+				height: 393px;
+				margin: 40px auto;
+				position: relative;
+				transition: 1s;
+			}
+
+			.content>div:nth-of-type(2):hover {
+				background-size: 80%;
+			}
+
+			.content>div:nth-of-type(3):hover {
+				background-size: 80%;
+			}
+
+			.content>div:nth-of-type(4):hover {
+				background-size: 80%;
+			}
+
+			.content>div:nth-of-type(5):hover {
+				background-size: 95%;
+			}
+
+			.item1>div {
+				position: absolute;
+				bottom: 0;
+				background: white;
+				text-align: center;
+			}
+
+			.introduction1 {
+				width: 400px;
+				height: 300px;
+			}
+
+			.introduction2 {
+				width: 400px;
+				height: 200px;
+				right: 0;
+			}
+
+			.introduction3 {
+				width: 400px;
+				height: 250px;
+			}
+
+			.introduction4 {
+				width: 350px;
+				height: 200px;
+				right: 0;
+			}
+
+			.item1>div>h3 {
+				margin: 30px;
+				font-size: 24px;
+			}
+
+			.item1>div>p {
+				margin: 20px;
+				font-weight: bold;
+			}
+
+			.item1>div>span {
+				font-size: 12px;
+				display: inline-block;
+				width: 264px;
+			}
+
+			.item1>div>a {
+				display: inline-block;
+				width: 80px;
+				height: 30px;
+				line-height: 30px;
+				margin-top: 20px;
+				border: 1px solid;
+				color: black;
+				background: url(img/btn_bg.jpg) top no-repeat;
+				border-radius: 500px;
+				text-decoration: none;
+				transition: .5s;
+			}
+
+			.item1>div>a:hover {
+				color: white;
+				background: url(img/btn_bg.jpg) bottom no-repeat;
+			}
+
+			.update {
+				width: 1000px;
+				height: 600px;
+				margin: 20px auto;
+				/* border: 1px solid; */
+				background: white;
+			}
+
+			.icons {
+				display: flex;
+				justify-content: space-around;
+				margin-top: 40px;
+			}
+
+			.icons>div {
+				margin: 20px;
+				width: 117px;
+				height: 30px;
+				padding-top: 150px;
+				/* border: 1px solid; */
+			}
+
+			.icons>div:nth-child(1) {
+				background: url(img/index-info.png) no-repeat;
+			}
+
+			.icons>div:nth-child(1):hover {
+				background: url(img/index-info-hover.png) no-repeat;
+			}
+
+			.icons>div:nth-child(2) {
+				background: url(img/index-repair.png) no-repeat;
+			}
+
+			.icons>div:nth-child(2):hover {
+				background: url(img/index-repair-hover.png) no-repeat;
+			}
+
+			.icons>div:nth-child(3) {
+				background: url(img/index-better.png) no-repeat;
+			}
+
+			.icons>div:nth-child(3):hover {
+				background: url(img/index-better-hover.png) no-repeat;
+			}
+
+			.icons>div:nth-child(4) {
+				background: url(img/index-services.png) no-repeat;
+			}
+
+			.icons>div:nth-child(4):hover {
+				background: url(img/index-services-hover.png) no-repeat;
+			}
+
+			.update>span {
+				display: block;
+				margin-top: 80px;
+				font-size: 30px;
+				font-weight: bold;
+			}
+
+			.update>p {
+				margin: 20px;
+			}
+
+			footer {
+				text-align: center;
+			}
+
+			footer>div {
+				width: 1000px;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-around;
+			}
+
+			footer>span {
+				display: block;
+				margin-top: 100px;
+				margin-bottom: 20px;
+			}
+
+			dl>* {
+				text-align: center;
+				margin: 5px;
+			}
+
+			dt {
+				font-size: 20px;
+				font-weight: bold;
+			}
+
+			dd {
+				color: rgb(122, 120, 120);
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="header">
+			<img src="img/logo.png" width="30px">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="headphone.html">头戴式耳机</a></li>
+				<li><a href="earhpone.html">入耳式耳机</a></li>
+				<li><a href="speaker.html">扬声器</a></li>
+				<li><a href="support.html">支持</a></li>
+				<li><a href=""><img src="img/放大镜.png" width="20"></a></li>
+			</ul>
+		</div>
+		<!-- 图片 -->
+		<div class="banner">
+			<h1>感受音乐人想要传达的乐声</h1>
+			<p>音乐人倾情奉献，打造每首歌曲，这就四他们给你的音礼物。今年节日季，透过音乐，感受音乐人的全部感情。</p>
+		</div>
+		<!-- 内容 -->
+		<div class="content">
+			<h2>精选产品</h2>
+			<div class="products">
+				<div>
+					<div class="pro_pic1">
+						<div class="buy_btn" data-id="001"><span data-id="001">购买</span></div>
+					</div>
+					<p>闪电充头的urbest3·黑色</p>
+				</div>
+				<div>
+					<div class="pro_pic2">
+						<div class="buy_btn" data-id="002"><span data-id="002">购买</span></div>
+					</div>
+					<p>Beats solo3 Wireless·黑色 </p>
+				</div>
+				<div>
+					<div class="pro_pic3">
+						<div class="buy_btn" data-id="003"><span data-id="003">购买</span></div>
+					</div>
+					<p>Beats solo3 Wireless·金色 </p>
+				</div>
+			</div>
+			<div class="item1">
+				<div class="introduction1">
+					<h3>特别版</h3>
+					<p>Beats Solo3 Wireless</p>
+					<span>戴上米奇 90周年纪念版 Beats Solo3 Wireless 头戴式耳机，致敬“The True Original
+						源自致真经典”之作。这款耳机随附定制毛绒便携盒，灵感源自米奇的大耳朵，并配以极具收藏价值的徽章，让音乐魔法持续不停。</span>
+					<br><a href="">购买</a>
+				</div>
+			</div>
+			<div class="item1">
+				<div class="introduction2">
+					<p>BEATS ICON COLLECTION</p>
+					<span>戴上 The Beats Icon Collection，体验标志性的纯净音质。有型有格，畅享音乐。并有三种颜色可选：丝缎金、丝缎银和黑色。</span>
+					<br><a href="">购买</a>
+				</div>
+			</div>
+			<div class="item1">
+				<div class="introduction3">
+					<h3>开启旅行</h3>
+					<span>Beats Studio3 Wireless – Skyline Collection 共有四种奢华颜色，呈现卓越音质，让旅程中的每一步都更加精彩。可选颜色：午夜黑、冰晶蓝、魅影灰和苍漠沙。</span>
+					<br><a href="">购买</a>
+				</div>
+			</div>
+			<div class="item1">
+				<div class="introduction4">
+					<h3>比赛从此 非同凡响</h3>
+					<span>这个赛季，音乐让 LeBron 保持专注</span>
+					<br><a href="">购买</a>
+				</div>
+			</div>
+			<h2>优化产品</h2>
+			<span>您的建议很宝贵</span>
+			<div class="update">
+				<div class="icons">
+					<div>
+						<p>主页信息</p>
+					</div>
+					<div>
+						<p>注册</p>
+					</div>
+					<div>
+						<p>优化BEAT</p>
+					</div>
+					<div>
+						<p>服务保修</p>
+					</div>
+				</div>
+				<span>欢迎加入Beats Army</span>
+				<p>时刻关注beats最新资讯</p>
+				<img src="img/qrcode.jpg">
+			</div>
+		</div>
+		
+		<!-- 尾部 -->
+		<footer>
+			<div>
+				<div><img src="img/logo.png"></div>
+				<div>
+					<dl>
+						<dt>产品</dt>
+						<dd>头戴式耳机</dd>
+						<dd>入耳式耳机</dd>
+						<dd>扬声器</dd>
+						<dd>配件</dd>
+						<dd>联名系列</dd>
+					</dl>
+				</div>
+				<div>
+					<dl>
+						<dt>支持</dt>
+						<dd>产品帮助</dd>
+						<dd>服务与维修</dd>
+						<dd>注册BEATS</dd>
+						<dd>更新BEATS</dd>
+						<dd>授权服务提供</dd>
+						<dd>联系技术支持</dd>
+					</dl>
+				</div>
+				<div>
+					<dl>
+						<dt>公司</dt>
+						<dd>关于我们</dd>
+						<dd>求贤纳才</dd>
+						<dd>新闻活动</dd>
+						<dd>隐私政策</dd>
+					</dl>
+				</div>
+			</div>
+			<span>© 2018 版权所有 苏州市BEAT有限公司beat.com | 苏州网站建设：BEAT</span>
+		</footer>
+		<script type="text/javascript">
+			var opro = document.getElementsByClassName("products")[0];
+			opro.onclick = function(e) {
+				var e = window.event || e;
+				var target = e.target || e.srcElement;
+				window.open("index_detail.html?" + target.getAttribute("data-id"));
+			}
+		</script>
+	</body>
+</html>

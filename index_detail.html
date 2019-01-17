@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Beats by Dre (中国)</title>
+		<link rel="icon" href="https://www.beatsbydre.com/etc/designs/apps/beats/resources/img/global/logo.png">
+		<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+				/* font-size: 0; */
+			}
+
+			embed {
+				margin: 0;
+			}
+
+			ul,
+			li {
+				display: inline-block;
+
+			}
+
+			dl>* {
+				text-align: center;
+				margin: 5px;
+			}
+
+			dt {
+				font-size: 20px;
+				font-weight: bold;
+			}
+
+			dd {
+				color: rgb(122, 120, 120);
+			}
+
+			.banner {
+				position: relative;
+				z-index: 2;
+				width: 100%;
+				margin: 0 auto;
+				overflow: hidden;
+				height: 90vh;
+				background-size: 100%;
+				color: white;
+			}
+
+			.banner>h1 {
+				display: inline-block;
+				position: relative;
+				width: 250px;
+				top: 150px;
+				left: 770px;
+				font-size: 50px;
+			}
+
+			.banner>p {
+				width: 250px;
+				position: relative;
+				font-size: 16px;
+				left: 770px;
+				top: 160px;
+			}
+
+			.banner>span {
+				width: 250px;
+				position: relative;
+				font-size: 14px;
+				font-weight: bold;
+				left: 770px;
+				top: 170px;
+			}
+
+			.banner>span>a {
+				display: inline-block;
+				border: 1px solid white;
+				color: white;
+				width: 60px;
+				text-align: center;
+				text-decoration: none;
+				margin: 5px;
+				border-radius: 500px;
+			}
+
+			.content {
+				display: flex;
+				justify-content: center;
+				width: 100%;
+				height: 550px;
+				margin: 0 auto;
+				overflow: hidden;
+				background: rgb(245, 242, 242);
+				text-align: center;
+			}
+
+			.c_left {
+				width: 300px;
+				/* border: 1px solid; */
+				text-align: left;
+			}
+
+			.c_left>h3 {
+				font-size: 30px;
+				font-weight: bold;
+			}
+
+			.c_left>p {
+				color: #a7a6a6;
+			}
+
+			.c_left>ul {
+				display: inline-block;
+				padding: 10px;
+				width: 200px;
+				background: rgba(162, 162, 162, 0.13);
+				/* border: 1px solid; */
+			}
+
+			.c_left>ul>li {
+				display: inline-block;
+				width: 80px;
+				height: 40px;
+				line-height: 40px;
+				border: 1px solid;
+				margin: 5px;
+				border-radius: 500px;
+				text-align: center;
+				cursor: pointer;
+			}
+
+			.hide {
+				display: none;
+				transition: 1s;
+			}
+
+			.carousel {
+				position: relative;
+				display: flex;
+				width: 500px;
+				overflow: hidden;
+			}
+
+			.carousel>div {
+				width: 500px;
+				position: relative;
+				height: 500px;
+				background: no-repeat;
+				background-size: 100%;
+				transition: 1s;
+				/* border: 1px solid; */
+			}
+
+			ol {
+				display: inline-block;
+				width: 80px;
+			}
+
+			ol>li {
+				display: inline-block;
+				border-radius: 50%;
+				width: 10px;
+				height: 10px;
+				background: black;
+			}
+
+			ol>li:nth-child(1) {
+				background: red;
+			}
+
+			button {
+				height: 20px;
+				width: 20px;
+			}
+
+			.header {
+				width: 100%;
+				margin: 0 auto;
+				background: rgb(27, 27, 27);
+				/* border: 1px solid; */
+				text-align: center;
+				color: white;
+				height: 60px;
+				line-height: 60px;
+			}
+
+			.header>img {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			ul,
+			li {
+				display: inline-block;
+
+			}
+
+			.header>ul>li {
+				width: 110px;
+			}
+
+			.header>ul>li>a {
+				color: white;
+				text-decoration: none;
+			}
+
+			.header>ul>li>a:hover {
+				border-bottom: 1px solid rgb(235, 0, 17);
+			}
+
+			footer {
+				text-align: center;
+			}
+
+			footer>div {
+				width: 1000px;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-around;
+			}
+
+			footer>span {
+				display: block;
+				margin-top: 100px;
+				margin-bottom: 20px;
+			}
+
+			dl>* {
+				text-align: center;
+				margin: 5px;
+			}
+
+			dt {
+				font-size: 20px;
+				font-weight: bold;
+			}
+
+			dd {
+				color: rgb(122, 120, 120);
+			}
+			.update{
+				width: 1000px;
+				height: 400px;
+				margin: 20px auto ;
+				/* border: 1px solid; */
+				text-align: center;
+				background: white;
+			}
+			.update>h2{
+				margin: 20px auto 20px;
+				font-size: 50px;
+			}
+			.cover{
+				position: relative;
+				top: -5px;
+				background: rgb(245, 242, 242);
+				padding: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="header">
+			<img src="img/logo.png" width="30px">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="headphone.html">头戴式耳机</a></li>
+				<li><a href="earhpone.html">入耳式耳机</a></li>
+				<li><a href="speaker.html">扬声器</a></li>
+				<li><a href="support.html">支持</a></li>
+				<li><a href=""><img src="img/放大镜.png" width="20"></a></li>
+			</ul>
+		</div>
+		<div class="banner">
+
+		</div>
+		<div class="content">
+			<div class="c_left">
+				<h3>可选颜色</h3>
+				<p>挑选你心仪的颜色</p>
+				<ul></ul>
+			</div>
+			<div class="c_right">
+				<div class="carousel">
+					<div></div>
+					<div class="hide"></div>
+					<div class="hide"></div>
+				</div>
+				<button>
+					<</button> <ol class="dots">
+						<li></li>
+						<li></li>
+						<li></li>
+						</ol>
+						<button>></button>
+			</div>
+		</div>
+		<div class="cover">
+			<div class="update">
+				<h2>加入 Beats Army</h2>
+				<span>欢迎加入Beats Army</span>
+				<p>时刻关注beats最新资讯</p>
+				<img src="img/qrcode.jpg">
+			</div>
+		</div>
+		<!-- 尾部 -->
+		<footer>
+			<div>
+				<div><img src="img/logo.png"></div>
+				<div>
+					<dl>
+						<dt>产品</dt>
+						<dd>头戴式耳机</dd>
+						<dd>入耳式耳机</dd>
+						<dd>扬声器</dd>
+						<dd>配件</dd>
+						<dd>联名系列</dd>
+					</dl>
+				</div>
+				<div>
+					<dl>
+						<dt>支持</dt>
+						<dd>产品帮助</dd>
+						<dd>服务与维修</dd>
+						<dd>注册BEATS</dd>
+						<dd>更新BEATS</dd>
+						<dd>授权服务提供</dd>
+						<dd>联系技术支持</dd>
+					</dl>
+				</div>
+				<div>
+					<dl>
+						<dt>公司</dt>
+						<dd>关于我们</dd>
+						<dd>求贤纳才</dd>
+						<dd>新闻活动</dd>
+						<dd>隐私政策</dd>
+					</dl>
+				</div>
+			</div>
+			<span>© 2018 版权所有 苏州市BEAT有限公司beat.com | 苏州网站建设：BEAT</span>
+		</footer>
+		<script type="text/javascript">
+			var id = location.search.substring(location.search.indexOf("?") + 1, ); //获取地址栏信息
+			var ocon = document.getElementsByClassName("content")[0]; //主要部分
+			var oban = document.getElementsByClassName("banner")[0]; //大图部分
+			var ocl = ocon.getElementsByClassName("c_left")[0]; //主要部分左选色区
+			var ocr = ocon.getElementsByClassName("c_right")[0]; //主要部分右图片区
+			var uocl = ocl.getElementsByTagName("ul")[0]; //颜色集合
+			var ocar = ocr.getElementsByClassName("carousel")[0]; //轮播
+			var arrbtn = document.getElementsByTagName("button"); //轮播按钮
+			var arrdiv = ocar.getElementsByTagName("div"); //轮播图片
+			var arrli = document.getElementsByClassName("dots")[0].getElementsByTagName("li"); //三个点
+			var n = 0; //轮播切换用
+			ajax("get", "js/indexdetail.json", "", function(data) {
+				var json = JSON.parse(data);
+				// console.log(json);
+				json.forEach(function(i) {
+					if (i.id == id) {
+						oban.style.backgroundImage = "url(" + i.bg + ")";
+						// console.log(i.bg);
+						oban.innerHTML =
+							`<h1>${i.name}<\/h1>
+						<p>${i.detail}<\/p>
+						<span>RMB:${i.rmb}<a href="">购买<\/a><\/span>
+						`;
+						json1 = i.color;
+						for (j in json1) {
+							// console.log(json1[j][0])
+							uocl.innerHTML += `<li data-id="${j}">${j}
+							<\/li>
+							`
+							arrdiv[0].style.backgroundImage = "url(" + json1[j][0].src + ")";
+							arrdiv[1].style.backgroundImage = "url(" + json1[j][1].src + ")";
+							arrdiv[2].style.backgroundImage = "url(" + json1[j][2].src + ")";
+							var arr = json1[j][0];
+							// console.log(json1[j][0])
+							var arrcolor = uocl.getElementsByTagName("li");
+
+						}
+						// 点击换色
+						for (k = 0; k < arrcolor.length; k++) {
+							arrcolor[k].index = k;
+							arrcolor[k].onclick = function() {
+								var color = arrcolor[this.index].getAttribute("data-id");
+								for (j in json1) {
+									if (color == j) {
+										arrdiv[0].style.backgroundImage = "url(" + json1[j][0].src + ")";
+										arrdiv[1].style.backgroundImage = "url(" + json1[j][1].src + ")";
+										arrdiv[2].style.backgroundImage = "url(" + json1[j][2].src + ")";
+									}
+								}
+							}
+						}
+						// 点击换图
+						arrbtn[1].onclick = function() {
+							n++;
+							if (n == 3) {
+								n = 0;
+							}
+							for (x = 0; x < arrli.length; x++) {
+								arrli[x].style.background = "black";
+								arrdiv[x].className = "hide";
+							}
+							arrli[n].style.background = "red";
+							arrdiv[n].className = "";
+						}
+						arrbtn[0].onclick = function() {
+							n--;
+							if (n < 0) {
+								n = 2;
+							}
+							for (x = 0; x < arrli.length; x++) {
+								arrli[x].style.background = "black";
+								arrdiv[x].className = "hide";
+							}
+							arrli[n].style.background = "red";
+							arrdiv[n].className = "";
+						}
+					}
+				})
+			})
+		</script>
+	</body>
+</html>

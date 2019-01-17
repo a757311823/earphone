@@ -1,0 +1,377 @@
+{
+	"h001": [{
+		"name": "Beats Studio3 Wireless",
+		"title": "畅享音乐。拒绝噪音。",
+		"detail": "Beats Studio3 Wireless 现已全新登场，采用完全自适应消噪 (Beats Pure ANC) 技术和 Apple W1 芯片",
+		"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/hero/443_HERO_PDP_3440X1440.jpg",
+		"RMB": "2,863",
+		"color": {
+			"黑色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/no_shadows/_0011_MQ562-RGB-bttm.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/no_shadows/_0010_MQ562-RGB-front.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/no_shadows/_0009_MQ562-RGB-side.png"
+				}
+			],
+			"白色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/no_shadows/_0008_MQ572-RGB-bttm.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/no_shadows/_0007_MQ572-RGB-front.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/no_shadows/_0006_MQ572-RGB-side.png"
+				}
+			],
+
+			"蓝色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/bbd-pdp-studio3-wireless-blue-bottom.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/no_shadows/_0004_MQCY2-RGB-front.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/no_shadows/_0003_MQCY2-RGB-side.png"
+				}
+			],
+
+			"红色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/no_shadows/_0002_MQDO2-RGB-bttm.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/no_shadows/_0001_MQDO2-RGB-front.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/no_shadows/_0000_MQDO2-RGB-side.png"
+				}
+			],
+
+			"黑红": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/MRQ82-RGB-bttm.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/MRQ82-RGB-front.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/MRQ82-RGB-side.png"
+				}
+			],
+
+			"灰色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/Studio3Wireless_Gray_bottom_1800x1800.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/Studio3Wireless_Gray_thrqrtrlft_1800x1800.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/color_selector/Studio3Wireless_Gray_Side_1800x1800.png"
+				}
+			]
+		},
+		"adv1":{
+			"title":"开启旅程",
+			"article":"Beats Studio3 Wireless – Skyline Collection 共有四种奢华颜色，呈现卓越音质，让旅程中的每一步都更加精彩。可选颜色：午夜黑、冰晶蓝、魅影灰和苍漠沙。",
+			"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/disruptor/skyline_homepage_hero_01_desktop.jpg.large.2x.jpg"
+		},
+		"adv2":{
+			"title":"Beats Pure ANC",
+			"article":"",
+			"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/fullbleed_statics/temp_solve/ANC_1280x512.jpg.large.2x.jpg"
+		},
+		"more":{
+			"first":[{
+				"title":"感应式的主动消噪",
+				"letters":"Beats Pure ANC 可以持续精准地找到并阻隔外部噪音，同时根据个人的佩戴感受和音乐的变化而自动调节。",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/feature_blocks/443Lifestyle_girl_1440x1440.jpg.large.2x.jpg"
+			}],
+			"second":[{
+				"title":"密闭隔音静听天籁",
+				"letters":"配有软垫的耳罩采用先进的通风设计，加上符合人体工学的标志性转轴，灵活贴合，让你畅享音乐，拒绝噪音。",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/feature_blocks/443Lifestyle_girl2_1440x1440.jpg.large.2x.jpg"
+			}],
+			"third":[{
+				"title":"实时音频校准",
+				"letters":"Beats Pure ANC (完全自适应消噪) 可以持续优化声音输出，确保音质清晰、音域精准且音乐情感细腻，打造至臻聆听体验。",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/feature_blocks/443Lifestyle_guy_1440x1440.jpg.large.2x.jpg"
+			}]
+		},
+		"pics":{
+			"a":"https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/visual_romance/443_top_small_grid_1440x1440.jpg.large.2x.jpg",
+			"b":"https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/visual_romance/443_bottom_small_grid_1440x1440.jpg.large.2x.jpg",
+			"c":"https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/visual_romance/443_large_grid_1880x1880.jpg.large.2x.jpg"
+		}
+	}],
+	"h002": [{
+		"name": "Beats Solo3Wireless",
+		"title": "",
+		"detail": "Beats Solo3Wireless 的电池使用时间长达 40 小时，是非常适合日常使用的头戴式耳机。荣膺大奖、打动内心的 Beats 聆听体验，为你释放出音乐的魅力。",
+		"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/hero/s3w_hero_retina_3440x1940%20optim.jpg",
+		"RMB": "2,268",
+		"color": {
+			"哑光黑色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0053_rgb_MP582-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0052_rgb_MP582-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0051_rgb_MP582-RGB-side_V2.png"
+				}
+			],
+			"丝缎金": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/solo3wireless-matrix-colorselector_0005_MUH42_Solo3WL-SatinGold_RGB-BTTM_v4.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/solo3wireless-matrix-colorselector_0001_MUH42_Solo3WL-SatinGold_RGB-3QL_v4.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/solo3wireless-matrix-colorselector_0003_MUH42_Solo3WL-SatinGold_RGB-SIDE_v3.png"
+				}
+			],
+			"丝缎银": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/icon/_0005_MR3T2-RGB-bttm.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/icon/_0003_MR3T2-RGB-front.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/icon/_0001_MR3T2-RGB-side.png"
+				}
+			],
+			"亮黑色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0068_rgb_MNEN2-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0067_rgb_MNEN2-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0066_rgb_MNEN2-RGB-side_V2.png"
+				}
+			],
+			"亮白色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0065_rgb_MNEP2-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0064_rgb_MNEP2-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0063_rgb_MNEP2-RGB-side_V2.png"
+				}
+			],
+			"玫瑰金色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0056_rgb_MNET2-RGB-bttm.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0055_rgb_MNET2-RGB-front.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0054_rgb_MNET2-RGB-side.png"
+				}
+			],
+			"金色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0059_rgb_MNER2-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0058_rgb_MNER2-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0057_rgb_MNER2-RGB-side_V2.png"
+				}
+			],
+			"银色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0062_rgb_MNEQ2-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0061_rgb_MNEQ2-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0060_rgb_MNEQ2-RGB-side_V2.png"
+				}
+			],
+			"红色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0002_rgb_MP162-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0000_rgb_MP162-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0001_rgb_MP162-RGB-side_V2.png"
+				}
+			],
+			"黑红": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/MRQC2-RGB-bttm.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/MRQC2-RGB-front.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/MRQC2-RGB-side.png"
+				}
+			]
+		},
+		"adv1":{
+			"title":"Apple W1 Chip",
+			"article":"通过在 Beats Solo3 Wireless 中引入 Apple W1 技术，Beats 与 Apple 为你打造非同凡响的音乐聆听体验。内置不可思议的 W1 芯片，让你可以在 Apple 设备间无缝设置和切换*，带来超长的电池使用时间以及 Fast Fuel 5 分钟极速闪充技术。",
+			"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/disruptor/w1/352_W1_dec17_desktop.jpg.large.2x.jpg"
+		},
+		"adv2":{
+			"title":"野如我们",
+			"article":"戴上Beats Solo3 Wireless 特别版耳机，一起庆祝中国新年。 耳机的设计采用了野猪插画图案，象征着无所畏惧，大胆野性的精神， 并用金色点缀，还搭配野猪图案的耳机便携包。",
+			"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/disruptor/cny_2019/cny_zhcn_disruptor_dekstop.jpg.large.2x.jpg"
+		},
+		"more":{
+			"first":[{
+				"title":"电池使用时间长达 40 小时",
+				"letters":"凭借新的 Apple W1 技术支持，全新 Beats Solo3 Wireless 拥有 40 小时电池使用时间、5 分钟 Fast Fuel 快速充电能力，并可在 Apple 设备间无缝设置和切换，能够让你持续不间断地享受一整天的音乐之旅",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/feature_blocks/s3w_cards3_retina_1440x1440_V2.jpg.large.2x.jpg"
+			}],
+			"second":[{
+				"title":"荣膺大奖的音质",
+				"letters":"这款头戴式耳机拥有精准调音的声学系统，带来出色的播放音质，让声音的清澈度、宽广度和平衡性均达到更高水平。带有舒适软垫的耳罩能隔离外界噪音，让你仿如身临其境，更好地感受音乐人想传达的音乐。",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/feature_blocks/s3w_cards2_retina_1440x1440_V2.jpg.large.2x.jpg"
+			}],
+			"third":[{
+				"title":"充电 5 分钟 = 播放 3 小时",
+				"letters":"采用 Fast Fuel 技术，在电量不足时，充电 5 分钟即可持续播放 3 小时。",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/feature_blocks/s3w_cards4_retina_1440x1440_V2.jpg.large.2x.jpg"
+			}]
+		},
+		"pics":{
+			"a":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/3_up/_0002s_0000_B352-Gold-Earcup-263_WEB_v4_V2.jpg.large.2x.jpg",
+			"b":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/3_up/_0002s_0001_B352-Silver-FG1_WEB_v7_V2.jpg.large.2x.jpg",
+			"c":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/3_up/s3w_3up_retina_1880x1880_V2.jpg.large.2x.jpg"
+		}
+	}],
+	"h003": [{
+		"name": "Beats EP",
+		"title": "由此动听。",
+		"detail": "",
+		"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Hero/ep_hero_retina_3440x1940%20optim.jpg",
+		"RMB": "781",
+		"color": {
+			"蓝色": [{
+				"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0075_rgb_ML9D2-RGB-thrqtrrght_V2.png"
+			}, {
+				"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0077_rgb_ML9D2-RGB-front_V2.png"
+			}, {
+				"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0076_rgb_ML9D2-RGB-side_V2.png"
+			}],
+			"白色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0081_rgb_ML9A2-RGB-thrqtrrght_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0083_rgb_ML9A2-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0082_rgb_ML9A2-RGB-side_V2.png"
+				}
+			],
+			"黑色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0072_rgb_ML992-RGB-thrqtrrght_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0074_rgb_ML992-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0073_rgb_ML992-RGB-side_V2.png"
+				}
+			],
+			"红色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0078_rgb_ML9C2-RGB-thrqtrrght_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0080_rgb_ML9C2-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Color_Selector/_0079_rgb_ML9C2-RGB-side_V2.png"
+				}
+			]
+		},
+		"adv1":{
+			"title":"",
+			"article":"",
+			"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/video/ep_youtube_thumbnail.jpg.large.2x.jpg"
+		},
+		"adv2":{
+			"title":"",
+			"article":"",
+			"bg":""
+		},
+		"more":{
+			"first":[{
+				"title":"专为日常生活打造",
+				"letters":"Beats EP 坚固耐用，轻盈舒适。耐用的框架结构采用不锈钢强化。可上下调节的滑杆，让佩戴体验更为贴合、舒适。设计精良，适合日常使用。",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/3_up/_0007s_0001_ML9C2-RGB-front_V2.jpg.large.2x.jpg"
+			}],
+			"second":[{
+				"title":"随身携带",
+				"letters":"无论哪里，Beats EP 时刻伴你左右。它采用无电池设计，可以不间断播放；固定式耳机线免去了线缆麻烦，让你可以专注聆听音乐。带上它出发吧。",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/3_up/B310_product_3up_right_retina_V2.jpg.large.2x.jpg"
+			}],
+			"third":[{
+				"title":"由此动听",
+				"letters":"Beats EP 贴耳式耳机能够呈现音乐原有的专业级调校音质。它通过精湛的声学调制，带来了清澈、宽广的均衡音质。对于任何音乐爱好者而言，它都是理想的入门级 Beats 产品。",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/3_up/_0007s_0000_ML9C2-RGB-side_V2.jpg.large.2x.jpg"
+			}]
+		},
+		"pics":{
+			"a":"",
+			"b":"",
+			"c":""
+		}
+	}],
+	"h004": [{
+		"name": "Beats EP",
+		"title": "由此动听。",
+		"detail": "",
+		"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-pro/hero/pro_pdp_hero_retina_V2.jpg",
+		"RMB": "781",
+		"color": {
+			"黑色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-pro/color_selector/_0069_overear-pro-black-rgb-thrqrtleft_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-pro/color_selector/_0071_overear-pro-black-rgb-front_V2.png"
+				}, {
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-pro/color_selector/_0070_overear-pro-black-rgb-side_V2.png"
+				}
+			]
+		},
+		"adv1":{
+			"title":"",
+			"article":"",
+			"bg":""
+		},
+		"adv2":{
+			"title":"",
+			"article":"",
+			"bg":""
+		},
+		"more":{
+			"first":[{
+				"title":"表现声音，精准细腻",
+				"letters":"Beats Pro 头戴式耳机深受广大歌手和音乐制作人的喜爱，助他们在大型录音室打造专业混音；它能够展现清澈纯正的音质，带你重新发掘音乐之美。",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-pro/3_up/_0004s_0000_rgb_pro_black_3q_RGB_V2.jpg.large.2x.jpg"
+			}],
+			"second":[{
+				"title":"高音清澈，低音浑厚",
+				"letters":"这款头戴式耳机拥有坚固耐用的内部声音平台，带你聆听音色丰富的激昂高音和震慑内心的深沉低音。",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-pro/3_up/_0004s_0001_rgb_pro_black_3q_RGB_V2.jpg.large.2x.jpg"
+			}],
+			"third":[{
+				"title":"感受非凡",
+				"letters":"Beats Pro 头戴式耳机采用铝合金炮铜框架，并套有高品质真皮耳罩，佩戴起来更为舒适。",
+				"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-pro/3_up/pro_3up_right_retina_V2.jpg.large.2x.jpg"
+			}]
+		},
+		"pics":{
+			"a":"",
+			"b":"",
+			"c":""
+		}
+
+	}]
+}

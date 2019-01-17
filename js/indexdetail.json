@@ -1,0 +1,168 @@
+[{
+		"id": "001",
+		"name": "Beatsx",
+		"detail": "贴合你的生活节奏，BeatsX 入耳式耳机是你随身的无线伴侣。长达 8 小时的电池使用时间和 Fast Fuel 闪充技术，让你全天都能聆听到纯正而清澈的音质。",
+		"rmb": "899",
+		"bg": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-x/hero/x_hero_retina_3440x1940_optim.jpg",
+		"color": {
+			"黑色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-x/color_selector/_0003_rgb_MLYE2-RGB-thrqtr-detail_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-x/color_selector/_0004_rgb_MLYE2-RGB-front-detail2_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-x/color_selector/_0005_rgb_MLYE2-RGB-custom1_V2.png"
+				}
+			],
+			"丝缎银": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-x/color_selector/optimized/icon/_0003_MR3J2-RGB-thrqtr-detail.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-x/color_selector/optimized/icon/_0004_MR3J2-RGB-front-detail2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-x/color_selector/optimized/icon/_0005_MR3J2-RGB-custom1.png"
+				}
+			]
+		}
+	},
+	{
+		"id": "002",
+		"name": "Beats Solo3Wireless",
+		"detail": "Beats Solo3Wireless 的电池使用时间长达 40 小时，是非常适合日常使用的头戴式耳机。荣膺大奖、打动内心的 Beats 聆听体验，为你释放出音乐的魅力。",
+		"rmb": "2,268",
+		"bg": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/hero/s3w_hero_retina_3440x1940%20optim.jpg",
+		"color": {
+			"哑光黑色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0053_rgb_MP582-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0052_rgb_MP582-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0051_rgb_MP582-RGB-side_V2.png"
+				}
+			],
+			"丝缎金": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/solo3wireless-matrix-colorselector_0005_MUH42_Solo3WL-SatinGold_RGB-BTTM_v4.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/solo3wireless-matrix-colorselector_0001_MUH42_Solo3WL-SatinGold_RGB-3QL_v4.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/solo3wireless-matrix-colorselector_0003_MUH42_Solo3WL-SatinGold_RGB-SIDE_v3.png"
+				}
+			],
+			"丝缎银": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/icon/_0005_MR3T2-RGB-bttm.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/icon/_0003_MR3T2-RGB-front.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/icon/_0001_MR3T2-RGB-side.png"
+				}
+			],
+			"亮黑色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0068_rgb_MNEN2-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0067_rgb_MNEN2-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0066_rgb_MNEN2-RGB-side_V2.png"
+				}
+			],
+			"亮白色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0065_rgb_MNEP2-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0064_rgb_MNEP2-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0063_rgb_MNEP2-RGB-side_V2.png"
+				}
+			],
+			"玫瑰金色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0056_rgb_MNET2-RGB-bttm.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0055_rgb_MNET2-RGB-front.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0054_rgb_MNET2-RGB-side.png"
+				}
+			],
+			"金色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0059_rgb_MNER2-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0058_rgb_MNER2-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0057_rgb_MNER2-RGB-side_V2.png"
+				}
+			],
+			"银色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0062_rgb_MNEQ2-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0061_rgb_MNEQ2-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0060_rgb_MNEQ2-RGB-side_V2.png"
+				}
+			],
+			"红色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0002_rgb_MP162-RGB-bttm_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0000_rgb_MP162-RGB-front_V2.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/_0001_rgb_MP162-RGB-side_V2.png"
+				}
+			],
+			"黑红": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/MRQC2-RGB-bttm.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/MRQC2-RGB-front.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/color_selector/MRQC2-RGB-side.png"
+				}
+			]
+		}
+	},
+	{
+		"id": "003",
+		"name": "urBeats3",
+		"detail": "urBeats3 有线入耳式耳机贴合你的生活节奏，采用精湛的声学设计，带给你非凡绝妙的聆听体验。卓越的人体工学设计，舒适贴合， 适合全天佩戴;同时配有防缠结的扁平线缆和磁性耳塞，方便随身携带，让你随时随地畅享音乐。",
+		"rmb": "499",
+		"bg": "https://www.beatsbydre.com/content/dam/beats/web/pdp/urbeats3/hero/hero/urbeats3-black_hero_pdp_desktop_3440x1940.jpg",
+		"color": {
+			"黑色": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/urbeats3/color_selector/_0007_MQHY2-RGB-thrqtr-detail1.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/urbeats3/color_selector/_0010_MQHY2-RGB-thrqtrrev-detail1.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/urbeats3/color_selector/_0000_MQHY2-RGB-front-detail21.png"
+				}
+			],
+			"黑红": [{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/urbeats3/color_selector/urbeats3-colorselector_0010.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/urbeats3/color_selector/urbeats3-colorselector_0011.png"
+				},
+				{
+					"src": "https://www.beatsbydre.com/content/dam/beats/web/pdp/urbeats3/color_selector/urbeats3-colorselector_0009.png"
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Beats by Dre (中国)</title>
+		<link rel="icon" href="https://www.beatsbydre.com/etc/designs/apps/beats/resources/img/global/logo.png">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			.header {
+				width: 100%;
+				margin: 0 auto;
+				background: rgb(27, 27, 27);
+				/* border: 1px solid; */
+				text-align: center;
+				color: white;
+				height: 60px;
+				line-height: 60px;
+			}
+
+			.header>img {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			ul,
+			li {
+				display: inline-block;
+
+			}
+
+			.header>ul>li {
+				width: 110px;
+			}
+
+			.header>ul>li>a {
+				color: white;
+				text-decoration: none;
+			}
+
+			.header>ul>li>a:hover {
+				border-bottom: 1px solid rgb(235, 0, 17);
+			}
+
+			footer {
+				text-align: center;
+			}
+
+			footer>div {
+				width: 1000px;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-around;
+			}
+
+			footer>span {
+				display: block;
+				margin-top: 100px;
+				margin-bottom: 20px;
+			}
+
+			dl>* {
+				text-align: center;
+				margin: 5px;
+			}
+
+			dt {
+				font-size: 20px;
+				font-weight: bold;
+			}
+
+			dd {
+				color: rgb(122, 120, 120);
+			}
+			
+			.banner{
+				height: 304px;
+				background: url(https://www.beatsbydre.com/content/dam/beats-support/global/images/support-hero-white.jpg.large.2x.jpg) no-repeat;
+				background-size: 100%;
+				text-align: center;
+			}
+			.banner>h1 {
+				padding-top: 100px;
+				font-size: 50px;
+			}
+			.help{
+				text-align: center;
+			}
+			h2{
+				padding-top: 80px;
+				font-size: 50px;
+			}
+			.help>p{
+				margin: 20px auto;
+				color: #8C8C8C;
+			}
+			.products{
+				display: flex;
+				width: 1000px;
+				margin: 0 auto 80px;
+				justify-content: space-between;
+			}
+			.products>div>img{
+				width: 145px;
+			}
+			ol{
+				width: 160px;
+			}
+			ol>li{
+				width: 160px;
+				font-weight: bold;
+				text-align: left;
+				font-size: 12px;
+				cursor: pointer;
+				transition: .5s;
+			}
+			ol>li>a{
+				color: black;
+				text-decoration: none;
+			}
+			ol>li>a:hover{
+				border-bottom: 2px solid;
+			}
+			.hot_theme{
+				height: 731px;
+				background: url(https://www.beatsbydre.com/content/dam/beats-support/global/images/popular-topics.jpg.large.2x.jpg) no-repeat;
+				background-size: 100%;
+			}
+			.hot_theme>h4{
+				position: relative;
+				font-size: 40px;
+				top: 180px;
+				left: 200px;
+			}
+			.theme_items{
+				position: relative;
+				top: 230px;
+				left: 200px;
+			}
+			.theme_items>div{
+				width: 410px;
+				height: 110px;
+				line-height: 110px;
+				background: transparent;
+				padding-left: 20px;
+				transition: .5s;
+				border-top: 1px solid #8C8C8C;
+			}
+			.theme_items>div:nth-child(3){
+				border-bottom: 1px solid #8C8C8C;
+			}
+			.theme_items>div:hover{
+				background: rgba(255, 255, 255, 0.2);
+			}
+			.cover{
+				background: rgb(245, 242, 242);
+				text-align: center;
+			}
+			.resource{
+				width: 1000px;
+				height: 600px;
+				margin: 0 auto;
+				display: flex;
+				padding: 40px 0;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+			.resource>div{
+				width: 300px;
+				height: 250px;
+				background: white;
+				text-align: center;
+			}
+			.resource>div>h5{
+				padding: 20px 0 0;
+				font-size: 20px;
+			}
+			.resource>div>p{
+				margin: 10px;
+			}
+			.resource>div>span{
+				display: inline-block;
+				margin-top: 40px;
+				line-height: 50px;
+				width: 200px;
+				height: 50px;
+				background: url(img/btn_bg.jpg) top repeat-x;
+				transition: .5s;
+				border: 1px solid;
+				border-radius: 500px;
+				cursor: pointer;
+			}
+			.resource>div>span:hover{
+				color: white;
+				background: url(img/btn_bg.jpg) bottom repeat-x;
+			}
+			.resource>div>span:hover>a{
+				color: white;
+			}
+			.resource>div>span>a{
+				color: black;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="header">
+			<img src="img/logo.png" width="30px">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="headphone.html">头戴式耳机</a></li>
+				<li><a href="earhpone.html">入耳式耳机</a></li>
+				<li><a href="speaker.html">扬声器</a></li>
+				<li><a href="support.html">支持</a></li>
+				<li><a href=""><img src="img/放大镜.png" width="20"></a></li>
+			</ul>
+		</div>
+		<div class="banner"><h1>欢迎使用 Beats 支持</h1><p>我们随时为您提供帮助。</p></div>
+		<div class="help"><h2>您需要哪方面的帮助？</h2><p>我们随时为您提供帮助。</p>
+			<div class="products">
+				<div><img src="https://www.beatsbydre.com/content/dam/beats-support/global/images/product-category/headphones-black.png">
+					<h3>头戴式耳机</h3>
+					<ol>
+						<li><a href="">STUDIO3 WIRELESS</a></li>
+						<li><a href="">SOLO3 WIRELESS</a></li>
+						<li><a href="">EP</a></li>
+						<li><a href="">PRO</a></li>
+						<li><a href="">STUDIO WIRELESS</a></li>
+					</ol>
+				</div>
+				<div><img src="https://www.beatsbydre.com/content/dam/beats-support/global/images/product-category/earphones-white.png">
+					<h3>入耳式耳机</h3>
+					<ol>
+						<li><a href="">POWERBEATS3 WIRELESS</a></li>
+						<li><a href="">BEATSX</a></li>
+						<li><a href="">URBEATS3</a></li>
+						<li><a href="">TOUR2</a></li>
+						<li><a href="">URBEATS</a></li>
+					</ol>
+				</div>
+				<div><img src="https://www.beatsbydre.com/content/dam/beats-support/global/images/product-category/speakers-red.png">
+					<h3>扬声器</h3>
+					<ol>
+						<li><a href="">PILL</a></li>
+						<li><a href="">PILL 2.0</a></li>
+						<li><a href="">PILL</a></li>
+						<li><a href="">PILL XL</a></li>
+					</ol>
+				</div>
+				<div><img src="https://www.beatsbydre.com/content/dam/beats-support/global/images/product-category/accessories-black.png">
+					<h3>配件</h3>
+					<ol>
+						<li><a href="">PILL CHARACTER</a></li>
+						<li><a href="">PILL SLEEVE</a></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="hot_theme">
+			<h4>热门主题</h4>
+			<div class="theme_items">
+				<div>蓝牙配对</div>
+				<div>声音帮助</div>
+				<div>固件更新</div>
+			</div>
+		</div>
+		<div class="cover">
+			<h2>更多资源</h2>
+			<div class="resource">
+				<div><h5>服务和保修</h5><p>查找与您所在国家或地区的服务选项、保修和定价有关的所有问题的答案。</p><span><a href="support_detail.html">查看“服务和保修”</a></span></div>
+				<div><h5>注册您的 Beats 产品</h5><p>登记您的新 Beats 产品，获取产品更新和特别优惠。</p><span>注册您的 Beats 产品</span></div>
+				<div><h5>更新您的 Beats 产品</h5><p>检查有没有软件更新，或重命名您的 Beats，让产品唯你所有。</p><span>更新您的 Beats 产品</span></div>
+				<div><h5>授权零售商</h5><p>请前往 Apple Store 零售店、Apple Store 在线商店或下列任意授权零售商处，购买正品 Beats by Dr. Dre 产品。</p><span>查看零售商</span></div>
+				<div><h5>安全购买</h5><p>Beats 高品质产品吸引了世界各地的消费者。请确保您购买的是正品。</p><span>了解安全购买</span></div>
+				<div><h5>联系我们</h5><p>Beats by Dr. Dre 属于 Apple。请联系 Apple 获取支持。</p><span>联系 Apple 支持</span></div>
+			</div>
+		</div>
+		<!-- 尾部 -->
+		<footer>
+			<div>
+				<div><img src="img/logo.png"></div>
+				<div>
+					<dl>
+						<dt>产品</dt>
+						<dd>头戴式耳机</dd>
+						<dd>入耳式耳机</dd>
+						<dd>扬声器</dd>
+						<dd>配件</dd>
+						<dd>联名系列</dd>
+					</dl>
+				</div>
+				<div>
+					<dl>
+						<dt>支持</dt>
+						<dd>产品帮助</dd>
+						<dd>服务与维修</dd>
+						<dd>注册BEATS</dd>
+						<dd>更新BEATS</dd>
+						<dd>授权服务提供</dd>
+						<dd>联系技术支持</dd>
+					</dl>
+				</div>
+				<div>
+					<dl>
+						<dt>公司</dt>
+						<dd>关于我们</dd>
+						<dd>求贤纳才</dd>
+						<dd>新闻活动</dd>
+						<dd>隐私政策</dd>
+					</dl>
+				</div>
+			</div>
+			<span>© 2018 版权所有 苏州市BEAT有限公司beat.com | 苏州网站建设：BEAT</span>
+		</footer>
+		<script type="text/javascript">
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,61 @@
+[
+	{
+		"id":"h001",
+		"name":"Beats Studio3 Wireless",
+		"title":"ABOVE THE NOISE",
+		"RMB":"2268",
+		"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/studio_3_wireless/hero/443_HERO_PDP_3440X1440.jpg",
+		"show":"https://www.beatsbydre.com/content/dam/beats/web/pcp/headphones/studio_3_wireless/443_pcp_retina.png.large.2x.png",
+		"detail":
+		[
+			"采用Apple W1 芯片，实现1 类无线蓝牙®连接，提升电池能效",
+			"Beats Pure ANC (完全自适应消噪) 主动阻隔外界噪音",
+			"采用Fast Fuel 技术，在电量不足时，充电10 分钟即可持续播放3 小时",
+			"实时音频调校，打造至臻聆听体验"
+		]
+	},
+	{
+		"id":"h002",
+		"name":"Beats Solo3 Wireless",
+		"title":"为声音而造。为感情而生。",
+		"RMB":"2863",
+		"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/hero/s3w_hero_retina_3440x1940%20optim.jpg",
+		"show":"https://www.beatsbydre.com/content/dam/beats/web/pcp/headphones/solo3_wireless/_0001_MNEN2-RGB-bttm_V2.png.large.2x.png",
+		"detail":
+		[
+			"通过 1 类蓝牙®技术连接设备，享受无线聆听",
+			"你所热爱的荣膺大奖的 Beats 音质和设计",
+			"电池使用时间长达 40 小时，适合多日使用",
+			"采用 Fast Fuel 技术，在电量不足时，充电 5 分钟即可持续播放 3 小时"
+		]
+	},
+	{
+		"id":"h003",
+		"name":"Beats EP",
+		"title":"静听天籁。由此动听。",
+		"RMB":"781",
+		"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-ep/Hero/ep_hero_retina_3440x1940%20optim.jpg",
+		"show":"https://www.beatsbydre.com/content/dam/beats/web/pcp/headphones/beats_ep/ep_pcp_1292x1480_V2.png.large.2x.png",
+		"detail":
+		[
+			"精湛的音质，带来 Beats 一贯的清澈音色和深度音场",
+			"使用不锈钢强化，设计轻盈耐用",
+			"无需电池，无间断播放",
+			"可上下调节的滑杆，提供个人化的贴合体验"
+		]
+	},
+	{
+		"id":"h004",
+		"name":"Beats Pro",
+		"title":"音质卓越，颠覆传统",
+		"RMB":"3061",
+		"bg":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-pro/hero/pro_pdp_hero_retina_V2.jpg",
+		"show":"https://www.beatsbydre.com/content/dam/beats/web/pcp/headphones/pro/_0002_overear-pro-black-rgb-thrqrtleft_V2.png.large.2x.png",
+		"detail":
+		[
+			"清澈高音、浑厚低音，尽显卓越音质",
+			"旋转式耳罩",
+			"经久耐用的外壳和加垫头带，适合在录音棚长时间工作"
+		]
+	}
+]

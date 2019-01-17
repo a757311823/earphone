@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Beats by Dre (中国)</title>
+		<link rel="icon" href="https://www.beatsbydre.com/etc/designs/apps/beats/resources/img/global/logo.png">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			.header {
+				width: 100%;
+				margin: 0 auto;
+				background: rgb(27, 27, 27);
+				/* border: 1px solid; */
+				text-align: center;
+				color: white;
+				height: 60px;
+				line-height: 60px;
+			}
+
+			.header>img {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			ul,
+			li {
+				display: inline-block;
+			}
+
+			a {
+				color: white;
+				text-decoration: none;
+			}
+
+			.header>ul>li {
+				width: 110px;
+			}
+
+			.header>ul>li>a {
+				color: white;
+				text-decoration: none;
+			}
+
+			.header>ul>li>a:hover {
+				border-bottom: 1px solid rgb(235, 0, 17);
+			}
+
+			footer {
+				display: block;
+				text-align: center;
+			}
+
+			footer>div {
+				width: 1000px;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-around;
+			}
+
+			footer>span {
+				display: block;
+				margin-top: 100px;
+				margin-bottom: 20px;
+			}
+
+			dl>* {
+				text-align: center;
+				margin: 5px;
+			}
+
+			dt {
+				font-size: 20px;
+				font-weight: bold;
+			}
+
+			dd {
+				color: rgb(122, 120, 120);
+			}
+
+			.content {
+				background: rgb(245, 242, 242);
+				text-align: center;
+			}
+
+			.back {
+				display: inline-block;
+				position: relative;
+				left: -320px;
+				top: 20px;
+				line-height: 40px;
+				width: 130px;
+				height: 40px;
+				background: url(img/btn_bg.jpg) top repeat-x;
+				border: 1px solid #222021;
+				transition: .5s;
+				border-radius: 500px;
+			}
+
+			.back:hover {
+				background: url(img/btn_bg.jpg) bottom repeat-x;
+			}
+
+			.back:hover>a {
+				color: white;
+			}
+
+			.back>a {
+				color: #222021;
+			}
+
+			.back:hover>a:before {
+				content: "";
+				display: inline-block;
+				width: 0;
+				height: 0;
+				border: 5px solid white;
+				border-color: transparent white transparent transparent;
+			}
+
+			.back>a:before {
+				content: "";
+				position: relative;
+				left: -5px;
+				display: inline-block;
+				width: 0;
+				height: 0;
+				border: 5px solid #222021;
+				border-color: transparent #222021 transparent transparent;
+			}
+
+			.service_repair {
+				width: 1000px;
+				margin: 35px auto;
+				padding: 20px;
+				background: white;
+			}
+
+			.service_repair>h4 {
+				margin: 40px auto 20px;
+			}
+
+			.service_repair>p {
+				color: #8c8c8c;
+				font-size: 20px;
+				margin: 10px 0;
+			}
+
+			.services {
+				margin: 50px auto;
+			}
+
+			.services>div {
+				width: 500px;
+				height: 88px;
+				position: relative;
+				margin: 0 auto;
+				text-align: left;
+				border-top: 1px solid #808080;
+				overflow: hidden;
+				transition: .2s;
+			}
+
+			h2 {
+				margin-top: 17px;
+				margin-bottom: 80px;
+				cursor: pointer;
+			}
+
+			.services>div>p {
+				color: #808080;
+				margin: 0 auto 20px;
+			}
+
+			.services>div:hover {
+				background: #fbfbfb;
+			}
+
+			.services>div>a {
+				display: inline-block;
+				margin-bottom: 20px;
+				color: red;
+			}
+
+			.services>div:nth-last-of-type(1) {
+				border-bottom: 1px solid #808080;
+			}
+
+			svg {
+				position: absolute;
+				right: 20px;
+				top: 20px;
+				width: 20px;
+				transition: .2s;
+			}
+
+			font {
+				color: red;
+				transform: rotate(90deg);
+			}
+
+			hr+h3 {
+				margin-top: 100px;
+			}
+
+			.btn {
+				display: inline-block;
+				position: relative;
+				line-height: 40px;
+				width: 100px;
+				height: 40px;
+				margin: 10px;
+				background: url(img/btn_bg.jpg) top repeat-x;
+				border: 1px solid #222021;
+				transition: .5s;
+				border-radius: 500px;
+				cursor: pointer;
+			}
+
+			.btn:hover {
+				background: url(img/btn_bg.jpg) bottom repeat-x;
+				color: white;
+			}
+			.help{
+				width: 1000px;
+				margin: 0 auto ;
+				padding: 20px;
+				background: white;
+			}
+			.help>p{
+				display: inline-block;
+				width: 270px;
+				color: #808080;
+				margin: 20px 0;
+			}
+			.contact{
+				width: 150px;
+				height: 40px;
+				line-height: 40px;
+				margin:  0 auto;
+				background: url(img/btn_bg.jpg) top repeat-x;
+				border: 1px solid red;
+				transition: .5s;
+				border-radius: 500px;
+			}
+			.contact:hover{
+				color: white;
+				background: url(img/btn_bg.jpg) bottom repeat-x;
+			}
+			.blank{
+				height: 50px;
+				background: rgb(245, 242, 242);
+
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="header">
+			<img src="img/logo.png" width="30px">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="headphone.html">头戴式耳机</a></li>
+				<li><a href="earhpone.html">入耳式耳机</a></li>
+				<li><a href="speaker.html">扬声器</a></li>
+				<li><a href="support.html">支持</a></li>
+				<li><a href=""><img src="img/放大镜.png" width="20"></a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<span class="back"><a href="support.html">支持主页</a></span>
+			<div class="service_repair">
+				<h4>Beats 产品服务和保修</h4>
+				<p>进一步了解 Apple 在中国的服务选项和定价。 </p>
+				<p>要查看您的保修范围，请参阅适用于 Beats 产品的 <font style="color: red;">Apple 一年有限保修。</font>
+				</p>
+				<div class="services">
+					<div>
+						<h2>服务或维修</h2>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="-298 390 14 13">
+							<title>icon-plus</title>
+							<polygon points="-289.6,395.1 -289.6,390 -292.4,390 -292.4,395.1 -297.9,395.1 -297.9,397.9 -292.4,397.9 -292.4,403 
+	-289.6,403 -289.6,397.9 -284.1,397.9 -284.1,395.1 "
+							 fill="#a7a6a6" fill-rule="evenodd"></polygon>
+						</svg>
+						<p>在收到您寄来的产品后，我们将验证它需要接受哪类服务。我们会对它进行维修，或者将其更换成新设备或是在性能和可靠性上等同于新品的设备。如果产品需要接受的服务不同于您所请求的服务，我们将联系您并提供相关的详细信息。</p>
+						<a href="">发起维修请求</a>
+					</div>
+					<div>
+						<h2>电池服务</h2>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="-298 390 14 13">
+							<title>icon-plus</title>
+							<polygon points="-289.6,395.1 -289.6,390 -292.4,390 -292.4,395.1 -297.9,395.1 -297.9,397.9 -292.4,397.9 -292.4,403 
+						-289.6,403 -289.6,397.9 -284.1,397.9 -284.1,395.1 "
+							 fill="#a7a6a6" fill-rule="evenodd"></polygon>
+						</svg>
+						<p>电池属于消耗性部件，有时会因缺陷或因正常使用导致的老化而出现故障。如果您的产品因电池制造缺陷而出现故障，且其仍在 <font>Apple 一年有限保修</font>或<font>消费者相关法律和法规</font>的保障范围内，我们将对它进行维修或更换。如果您的产品受到意外损坏或需要其他维修，则可能需要支付额外的服务费用。<font>进一步了解有关电池服务的信息</font>。</p>
+					</div>
+					<div>
+						<h2>需要多长时间</h2>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="-298 390 14 13">
+							<title>icon-plus</title>
+							<polygon points="-289.6,395.1 -289.6,390 -292.4,390 -292.4,395.1 -297.9,395.1 -297.9,397.9 -292.4,397.9 -292.4,403 
+						-289.6,403 -289.6,397.9 -284.1,397.9 -284.1,395.1 "
+							 fill="#a7a6a6" fill-rule="evenodd"></polygon>
+						</svg>
+						<p>通过 Apple 进行的维修大约需要 3 – 10 个工作日（从您送修产品之日开始计算）。如果您通过<font>当地 Apple 授权服务提供商</font>进行维修，请向其咨询以了解详细信息。</p>
+					</div>
+					<div>
+						<h2>维修服务费是多少</h2>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="-298 390 14 13">
+							<title>icon-plus</title>
+							<polygon points="-289.6,395.1 -289.6,390 -292.4,390 -292.4,395.1 -297.9,395.1 -297.9,397.9 -292.4,397.9 -292.4,403 
+						-289.6,403 -289.6,397.9 -284.1,397.9 -284.1,395.1 "
+							 fill="#a7a6a6" fill-rule="evenodd"></polygon>
+						</svg>
+						<p>我们的服务费取决于您的产品和保修范围,在极少数情况下，如果我们检查您的产品后确定它不需要维修，我们可能会向您收取诊断费用。</p>
+					</div>
+				</div>
+				<hr>
+				<h3>这些信息有帮助吗？</h3>
+				<span class="btn">是</span>
+				<span class="btn">否</span>
+			</div>
+			<div class="help">
+				<h3>仍然需要帮助？</h3>
+				<p>Beats by Dre 现在属于 Apple。请联系 Apple 支持人员，或者前往 Apple Store 零售店以获取进一步支持。</p>
+				<div class="contact">联系APPLE支持</div>
+			</div>
+		</div>
+		<div class="blank"></div>
+		<!-- 尾部 -->
+		<footer>
+			<div>
+				<div><img src="img/logo.png"></div>
+				<div>
+					<dl>
+						<dt>产品</dt>
+						<dd>头戴式耳机</dd>
+						<dd>入耳式耳机</dd>
+						<dd>扬声器</dd>
+						<dd>配件</dd>
+						<dd>联名系列</dd>
+					</dl>
+				</div>
+				<div>
+					<dl>
+						<dt>支持</dt>
+						<dd>产品帮助</dd>
+						<dd>服务与维修</dd>
+						<dd>注册BEATS</dd>
+						<dd>更新BEATS</dd>
+						<dd>授权服务提供</dd>
+						<dd>联系技术支持</dd>
+					</dl>
+				</div>
+				<div>
+					<dl>
+						<dt>公司</dt>
+						<dd>关于我们</dd>
+						<dd>求贤纳才</dd>
+						<dd>新闻活动</dd>
+						<dd>隐私政策</dd>
+					</dl>
+				</div>
+			</div>
+			<span>© 2018 版权所有 苏州市BEAT有限公司beat.com | 苏州网站建设：BEAT</span>
+		</footer>
+		<script type="text/javascript">
+			var arrh = document.getElementsByTagName("h2");
+			var open = false;
+			for (i = 0; i < arrh.length; i++) {
+				arrh[i].index = i;
+				arrh[i].onclick = function() {
+					if (open) {
+						arrh[this.index].parentElement.style.height = "88px";
+						arrh[this.index].parentElement.style.backgroundColor = "white";
+						arrh[this.index].nextElementSibling.style.transform = "rotate(90deg)"
+						open = false;
+
+					} else {
+						arrh[this.index].parentElement.style.height = "281px";
+						arrh[this.index].parentElement.style.backgroundColor = "#fbfbfb";
+						arrh[this.index].nextElementSibling.style.transform = "rotate(-45deg)"
+						open = true;
+					}
+				}
+			}
+		</script>
+	</body>
+</html>
