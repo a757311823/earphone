@@ -371,7 +371,6 @@
 		</footer>
 		<script type="text/javascript">
 			var arrh = document.getElementsByTagName("h2");
-			var open = false;
 			for (i = 0; i < arrh.length; i++) {
 				arrh[i].index = i;
 				arrh[i].onclick = function() {
@@ -379,13 +378,20 @@
 						arrh[this.index].parentElement.style.height = "88px";
 						arrh[this.index].parentElement.style.backgroundColor = "white";
 						arrh[this.index].nextElementSibling.style.transform = "rotate(90deg)"
-						open = false;
 
 					} else {
+						for (j=0;j<arrh.length;j++) {
+							if (j==this.index) {
+								continue;
+							}
+							arrh[j].parentElement.style.height = "88px";
+							arrh[j].parentElement.style.backgroundColor = "white";
+							arrh[j].nextElementSibling.style.transform = "rotate(90deg)"
+							
+						}
 						arrh[this.index].parentElement.style.height = "281px";
 						arrh[this.index].parentElement.style.backgroundColor = "#fbfbfb";
 						arrh[this.index].nextElementSibling.style.transform = "rotate(-45deg)"
-						open = true;
 					}
 				}
 			}
